@@ -241,6 +241,8 @@ footer {
         align-content: start;
         text-align: left;
         background-color: #888888;
+        font-size: small;
+
     }
     }
 }
