@@ -24,7 +24,7 @@ header {
 html{
     scroll-behavior: smooth;
 }
-
+/* header section */
 header nav ul {
     list-style: none;
     display: flex;
@@ -65,6 +65,8 @@ header nav ul li a:hover {
     border-radius: 50px;
     margin-bottom: 30px;   
 }
+
+/* home page */
 #home {
     background: linear-gradient(to top, rgb(117, 204, 255), rgb(255, 255, 255));
     align-content: center;
@@ -73,6 +75,8 @@ header nav ul li a:hover {
 #home h2{
     font-size: 60px;
 }
+
+/* about page */
 #about {
     background: linear-gradient(to bottom, rgb(117, 204, 255), white);
     align-content: center;
@@ -87,7 +91,7 @@ header nav ul li a:hover {
 #about p{
 
 }
-
+/* portfolio page */
 #portfolio {
     background: linear-gradient(to top, rgb(167, 223, 255), rgb(255, 255, 255));
     border-bottom: 1px solid black;
@@ -102,6 +106,7 @@ header nav ul li a:hover {
     font-size: 20px;
 
 }
+/* experience page */
 #experience {
     background: linear-gradient(to bottom, rgb(167, 223, 255), rgb(255, 255, 255));
     border-bottom: 1px solid black;
@@ -120,6 +125,7 @@ header nav ul li a:hover {
 #experience p{
     font-size: 22px;
 }
+/* projects page */
 #blog {
     background: #ababab00;
     align-content: center;
@@ -130,7 +136,7 @@ header nav ul li a:hover {
 #blog {
     font-size: 190%;
 }
-
+/* contact page */
 #contact {
     background: linear-gradient(to top, rgb(121, 121, 121), rgb(255, 255, 255));
     padding-top: 200px;
@@ -190,7 +196,9 @@ form button {
     flex-direction: row;
     text-align: center;
     text-decoration: none;
-    gap: 20%;
+
+    justify-content: space-between;
+
 }
 .section {
     font-size: 20px;
@@ -198,13 +206,17 @@ form button {
 }
 
 .section .social .in {
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    gap: 60px;
+    justify-content: space-between;
 }
 .section .social .in img{
     width: 50px;
     align-items: center;
     align-content: center;
+    justify-content: space-between;
+
     
 }
 .section .social .in :hover{
@@ -214,6 +226,8 @@ form button {
 .in{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+
 }
 .section textarea label{
     height: 150px;
